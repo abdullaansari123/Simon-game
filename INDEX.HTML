@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simon Game</title>
+</head>
+<body>
+  <h1 id="level-title">Press ENTER Key to Start</h1>
+  <div class="container">
+    <div class="row">
+      <button id="greenbtn" onclick="input(myButton1); " class="btn green">
+      </button>
+      <button id="redbtn" onclick="input(myButton2)" class="btn red">
+      </button>
+    </div>
+    <div class="row">
+      <button id="yellowbtn" onclick="input(myButton3)" class="btn yellow">
+      </button>
+      <button id="bluebtn" onclick="input(myButton4)" class="btn blue">
+      </button>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
